@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/BattedBallData.xlsx');
+        const response = await fetch('https://baseballvisualizer.s3.us-east-2.amazonaws.com/BattedBallData.xlsx');
         const file = await response.blob();
         const parsedData = await readBaseballData(file);
         setBattedBallData(parsedData);

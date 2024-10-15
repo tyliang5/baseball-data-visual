@@ -129,7 +129,7 @@ const BaseballField2D = ({ battedBallData, selectedBatter, selectedPitcher, rese
                             style={{
                                 width: fieldWidth,
                                 height: fieldHeight,
-                                backgroundImage: "url('/baseballfield.png')",
+                                backgroundImage: "url('https://baseballvisualizer.s3.us-east-2.amazonaws.com/baseballfield.png')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center", // ensure the image is centered
                                 position: "relative",
